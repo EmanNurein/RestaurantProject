@@ -174,7 +174,7 @@ const cors = require('cors');
 
         app.listen(port, () => {
 
-        console.log(`Sever is running on the port  ${port}`)
+        console.log(`Sever is running on port  ${port}`)
 
         })
     })
