@@ -169,7 +169,7 @@ const cors = require('cors');
     // connect to database
     MongoClient.connect(mongoUrl, (err,client) => {
 
-        if (err) console.log('Error while connecting');
+        if (err) console.log('Error while connecting', err);
         db = client.db('emaarest');
 
         app.listen(port, () => {
